@@ -5,6 +5,11 @@ Uma estrutura de repetição testa se uma condição é verdadeira,
 executa bloco de código e repete a execução enquanto condição
 for verdadeira.
 
+Estrutura de um while:
+
+while condicao:
+    ...
+
 O bloco while significa enquanto, ou seja, enquanto dada condição
 for True, execute código e teste novamente se condição continua
 sendo True.
