@@ -12,6 +12,9 @@ função list().
 
 As funções min e max funcionam em coleções, e retornam o maior e menor
 elemento de uma lista.
+
+Listas multidimensionais são listas que contém outras listas, uma lista 2x2 teria
+linhas como índices da lista e colunas como índices das linhas.
 """
 
 li = ["A", "B", "C", "D", "E"]
@@ -69,3 +72,10 @@ print(numeros)
 # Obtendo o maior e menor elemento da lista:
 print(min(numeros))
 print(max(numeros))
+
+lista_2d = [[0, 1], [2, 3]]
+
+# Percorrendo sobre cada índice da lista (linha) para chegar nos índices da linha (coluna):
+for i in range(len(lista_2d)):
+    for j in range(len(lista_2d[i])):
+        print(lista_2d[i][j])
