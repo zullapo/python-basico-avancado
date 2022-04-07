@@ -30,3 +30,15 @@ for i in range(len(frase)):
 # Retorna índice e valor de cada interação em uma sequência.
 for indice, valor in enumerate(frase):
     print(indice, valor)
+
+# break - interrompe totalmente a execução do loop.
+# continue - pula uma iteração, para que outra seja executada.
+for i in range(10):
+    if i == 5:
+        break
+    print(i)
+
+for i in range(10):
+    if i == 4:
+        continue
+    print(i)
