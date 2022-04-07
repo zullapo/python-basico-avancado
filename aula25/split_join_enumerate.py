@@ -38,3 +38,8 @@ nomes = ["João", "Maria", "José"]
 for indice, valor in enumerate(nomes):
     print(indice, valor)
 
+# Enumerate sobre lista multidimensional:
+lista_2d = [[11, 12], [22, 23]]
+
+for indice, valor in enumerate(lista_2d):
+    print(indice, valor)
