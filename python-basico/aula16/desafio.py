@@ -1,5 +1,5 @@
 """
-Aula 16 - Desafio
+Aula 16 - Desafio - Estruturas Condicionais
 
 1) Faça um programa para checar se o valor digitado é um número,
 se for um número, informe se é par ou ímpar. Se não for um número,
