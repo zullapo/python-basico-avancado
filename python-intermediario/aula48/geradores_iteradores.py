@@ -18,7 +18,6 @@ parado.
 """
 
 import sys
-from this import d
 import time
 
 lista = [1, 2, 3]
@@ -61,7 +60,7 @@ print(next(lista))
 
 # Função geradora:
 def gera():
-    # Retorna um valor de cada vez, sem parar a execução da função
+    # Retorna um valor de cada vez, mantendo o estado
     for n in range(100):
         yield n
         time.sleep(0.1)
@@ -77,7 +76,7 @@ print()
 
 
 def gera2():
-    # Retorna um valor por vez em sequência, esse é o controle de estado.
+    # Retorna um valor por vez em sequência, esse é o controle de estado
     yield "1"
     yield "2"
     yield "3"
