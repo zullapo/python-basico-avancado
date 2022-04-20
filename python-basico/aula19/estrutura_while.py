@@ -63,7 +63,7 @@ while True:
               "repetem execução do bloco enquanto condição for verdadeira.")
     else:
         print("Opção inválida")
-    
+
     print()
 
 # Loops aninhados:

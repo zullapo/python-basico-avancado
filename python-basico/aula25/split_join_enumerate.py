@@ -20,7 +20,7 @@ contagem = 0
 for letra in palavras:
     # Toda palavra é contada em relação a toda string.
     qtd_vezes = palavras.count(letra)
-    
+
     # A cada iteração, será checado se a palavra atual foi mais
     # repetida do que a palavra anterior.
     if qtd_vezes > contagem:

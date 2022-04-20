@@ -33,12 +33,12 @@ while len(novo_cpf) < 11:
 
     for i in range(len(novo_cpf)):
         acumulador += int(novo_cpf[i]) * sequencia[i]
-    
+
     formula = 11 - (acumulador % 11)
 
     if not formula > 9:
         digito = formula
-    
+
     novo_cpf += str(digito)
 
     e_sequencia = novo_cpf == novo_cpf[0] * len(cpf)

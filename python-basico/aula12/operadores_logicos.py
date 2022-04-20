@@ -37,5 +37,3 @@ elif x >= 180 and x <= 270:
     print("Terceiro quadrante")
 elif x >= 270 and x <= 360:
     print("Quarto quadrante")
-
-

@@ -19,7 +19,7 @@ while contador < len(frase):
     if letra_frase == opcao_letra:
         nova_string += letra_frase.upper()
     else:
-        nova_string += letra_frase 
+        nova_string += letra_frase
 
     # print(nova_string)
 

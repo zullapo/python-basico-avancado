@@ -28,7 +28,7 @@ while True:
             secreto_temporario += letra_secreta
         else:
             secreto_temporario += "*"
-    
+
     if secreto_temporario == palavra_secreta:
         print(f"Correto! A palavra secreta é {secreto_temporario}.")
         break
@@ -37,6 +37,6 @@ while True:
 
     if letra not in palavra_secreta:
         chances -= 1
-    
+
     print(f"Você ainda tem {chances} chances.")
     print()

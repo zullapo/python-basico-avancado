@@ -53,4 +53,3 @@ produtos = ["Meta Quest 2", "Seagate HD Externo 4TB", "Iphone XR 4G LTE"]
 produtos = zip(contador, produtos)
 
 print(list(produtos))
-

@@ -33,11 +33,13 @@ lista = [1, 2, 3, 4, 5]
 func(lista)
 func(*lista)
 
+
 def func(**kwargs):
     # Checando se é None, ou seja, não foi preenchido:
     if not kwargs.get("idade"):
         print("Idade não foi preenchida.")
     print(kwargs)
+
 
 func(saudacao="Olá", nome="Usuário", idade=10)
 func(saudacao="Olá", nome="Usuário")

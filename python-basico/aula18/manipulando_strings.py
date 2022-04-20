@@ -37,7 +37,7 @@ print(f"texto[0:4] = {texto[2:6]}")
 print(texto[0:2])
 print(texto[:2])
 
-# Da mesma forma que o valor padrão para o início é 0, o valor padrão para o final é 
+# Da mesma forma que o valor padrão para o início é 0, o valor padrão para o final é
 # o tamanho da string.
 print(texto[7:9])
 print(texto[7:])
@@ -49,4 +49,5 @@ print(texto[:-3])  # Cortando a parte <3
 
 # Usando "passo"
 print(texto[::4])
-print(texto[::-1])  # Inverte a string pulando uma casa da direita para esquerda
+# Inverte a string pulando uma casa da direita para esquerda
+print(texto[::-1])

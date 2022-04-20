@@ -13,7 +13,7 @@ acumulador = 2
 
 while contador < 10:
     print(f"Contador: {contador}, Acumulador: {acumulador}")
-    
+
     # Se loop for interrompido pelo break, o bloco else não será executado.
     # if contador == 8:
     #     break
